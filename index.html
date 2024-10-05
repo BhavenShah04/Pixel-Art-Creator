@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Art Creator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">🎨 Pixel Art Creator 🎨</h1>
+        <div class="color-picker">
+            <div class="color" style="background-color: #ff6b6b;" data-color="#ff6b6b"></div>
+            <div class="color" style="background-color: #ffbe76;" data-color="#ffbe76"></div>
+            <div class="color" style="background-color: #6ab04c;" data-color="#6ab04c"></div>
+            <div class="color" style="background-color: #22a6b3;" data-color="#22a6b3"></div>
+            <div class="color" style="background-color: #9b59b6;" data-color="#9b59b6"></div>
+            <div class="color" style="background-color: #f0932b;" data-color="#f0932b"></div>
+            <div class="color" style="background-color: #2f3640;" data-color="#2f3640"></div>
+            <div class="color" style="background-color: #ffffff;" data-color="#ffffff"></div>
+        </div>
+        <div class="grid-container" id="grid-container"></div>
+        <button id="reset-button" class="reset-button">Reset Grid</button>
+        <button id="save-button" class="save-button">Save Art</button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.7/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
